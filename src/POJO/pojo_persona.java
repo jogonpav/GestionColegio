@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package POFO;
+package POJO;
 
 import java.sql.Date;
 import java.time.LocalTime;
@@ -13,7 +13,7 @@ import java.time.LocalTime;
  *
  * @author josep
  */
-public class pofo_persona {
+public class pojo_persona {
     String user;
     String contrasena;
     String tipo;

@@ -5,7 +5,7 @@
  */
 package reto;
 
-import POFO.pofo_Profesor;
+import POJO.pojo_Profesor;
 import conexion.conexion;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -19,7 +19,7 @@ import static reto.v_Principal.user;
  * @author @Jogonpav
  */
 public class v_Profesor extends javax.swing.JFrame {
-    static pofo_Profesor prof = new pofo_Profesor ();
+    static pojo_Profesor prof = new pojo_Profesor ();
     ArrayList<String> id_cursos;
     ArrayList<String> nombre_cursos;
     String profesor_id;

@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package POFO;
-
+package POJO;
 
 /**
  *
- * @author josep
+* @author @jogonpav
  */
-public class pofo_usuario extends pofo_persona {
+public class pojo_Coordinador extends pojo_persona {
 
 
-    
     
 }

@@ -10,7 +10,7 @@ package reto;
 import static CONTROLLER.c_Validaciones.validarCampo;
 import static CONTROLLER.c_Validaciones.validarCaracteresAlfa;
 import static CONTROLLER.c_Validaciones.validarCaracteresNumericos;
-import POFO.pofo_Estudiante;
+import POJO.pojo_Estudiante;
 import conexion.conexion;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -23,7 +23,7 @@ import javax.swing.JOptionPane;
  * @author @Jogonpav
  */
 public class v_Registrar_Estudiantes extends javax.swing.JFrame {
-    pofo_Estudiante est = new pofo_Estudiante();  
+    pojo_Estudiante est = new pojo_Estudiante();  
     /**
      * Creates new form v_Registrar_Profesor
      */

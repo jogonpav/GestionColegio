@@ -5,7 +5,7 @@
  */
 package reto;
 
-import POFO.pofo_usuario;
+import POJO.pojo_usuario;
 import conexion.conexion;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -21,7 +21,7 @@ import java.util.Arrays;
  * @author @Jogonpav
  */
 public class v_Principal extends javax.swing.JFrame {
-    static pofo_usuario user = new pofo_usuario();
+    static pojo_usuario user = new pojo_usuario();
 
 
     /**

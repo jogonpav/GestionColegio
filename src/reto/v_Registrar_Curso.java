@@ -5,7 +5,7 @@
  */
 package reto;
 
-import POFO.pofo_cursos;
+import POJO.pojo_cursos;
 import conexion.conexion;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -19,7 +19,7 @@ import javax.swing.JTextField;
  * @author @Jogonpav
  */
 public class v_Registrar_Curso extends javax.swing.JFrame {
-    pofo_cursos cur = new pofo_cursos();
+    pojo_cursos cur = new pojo_cursos();
     /**
      * Creates new form v_Registrar_Curso
      */

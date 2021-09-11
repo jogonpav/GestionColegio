@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package POFO;
+package POJO;
 
 /**
  *
 * @author @jogonpav
  */
-public class pofo_Profesor extends pofo_persona{
+public class pojo_Profesor extends pojo_persona{
     String titulo;
     String anios_exp;
     String id_profesor;
